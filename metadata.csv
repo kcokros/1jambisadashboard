@@ -1,0 +1,9 @@
+nama_kolom,tipe,deskripsi,satuan,catatan
+unit_kerja,Text,Nama unit kerja / bidang di Kanwil DJPb,—,6 unit kerja
+program,Text,Nama program anggaran yang dilaksanakan,—,5 program
+bulan,Text,Nama bulan realisasi anggaran,—,Januari–Juni
+tanggal,Date,Tanggal akhir bulan realisasi (YYYY-MM-DD),—,Format ISO
+pagu_anggaran,Integer,Total anggaran yang dialokasikan (pagu),IDR (Rupiah),50jt–400jt per baris
+realisasi,Integer,Jumlah anggaran yang sudah direalisasikan,IDR (Rupiah),Subset dari pagu
+persen_realisasi,Float,Persentase realisasi terhadap pagu,%,0–100%
+sisa_anggaran,Integer,Selisih pagu dikurangi realisasi,IDR (Rupiah),Pagu − Realisasi
